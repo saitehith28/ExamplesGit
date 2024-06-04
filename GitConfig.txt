@@ -1,0 +1,181 @@
+Tehith@DESKTOP-8BVO14S MINGW64 /c/Program Files
+$ git --version
+git version 2.45.2.windows.1
+
+Tehith@DESKTOP-8BVO14S MINGW64 /c/Program Files
+$ git config --global --list
+fatal: unable to read config file 'C:/Users/Tehith/.gitconfig': No such file or directory
+
+Tehith@DESKTOP-8BVO14S MINGW64 /c/Program Files
+$ git config --global user.name "saitehith28"
+
+Tehith@DESKTOP-8BVO14S MINGW64 /c/Program Files
+$ git config --global user.email "saitehith028@gmail.com"
+
+Tehith@DESKTOP-8BVO14S MINGW64 /c/Program Files
+$ git config --global --list
+user.name=saitehith28
+user.email=saitehith028@gmail.com
+
+Tehith@DESKTOP-8BVO14S MINGW64 /c/Program Files
+$
+
+
+
+
+Tehith@DESKTOP-8BVO14S MINGW64 /d/TechMahindra/GitExamples
+$ git --version
+git version 2.45.2.windows.1
+
+Tehith@DESKTOP-8BVO14S MINGW64 /d/TechMahindra/GitExamples
+$ git config --global --list
+user.name=saitehith28
+user.email=saitehith028@gmail.com
+
+Tehith@DESKTOP-8BVO14S MINGW64 /d/TechMahindra/GitExamples
+$ git init
+Initialized empty Git repository in D:/TechMahindra/GitExamples/.git/
+
+Tehith@DESKTOP-8BVO14S MINGW64 /d/TechMahindra/GitExamples (main)
+$ ls
+Welcome.txt
+
+Tehith@DESKTOP-8BVO14S MINGW64 /d/TechMahindra/GitExamples (main)
+$ ls -l
+total 0
+-rw-r--r-- 1 Tehith 197121 0 Jun  5 00:12 Welcome.txt
+
+Tehith@DESKTOP-8BVO14S MINGW64 /d/TechMahindra/GitExamples (main)
+$ ls -al
+total 4
+drwxr-xr-x 1 Tehith 197121 0 Jun  5 00:12 ./
+drwxr-xr-x 1 Tehith 197121 0 Jun  5 00:10 ../
+drwxr-xr-x 1 Tehith 197121 0 Jun  5 00:11 .git/
+-rw-r--r-- 1 Tehith 197121 0 Jun  5 00:12 Welcome.txt
+
+Tehith@DESKTOP-8BVO14S MINGW64 /d/TechMahindra/GitExamples (main)
+$ chmod 744 welcome.txt
+
+Tehith@DESKTOP-8BVO14S MINGW64 /d/TechMahindra/GitExamples (main)
+$ ls -l
+total 0
+-rw-r--r-- 1 Tehith 197121 0 Jun  5 00:12 Welcome.txt
+
+Tehith@DESKTOP-8BVO14S MINGW64 /d/TechMahindra/GitExamples (main)
+$ cat file1.txt
+cat: file1.txt: No such file or directory
+
+Tehith@DESKTOP-8BVO14S MINGW64 /d/TechMahindra/GitExamples (main)
+$ cat > file1.txt
+This is file1, ctrl D to stop
+
+Tehith@DESKTOP-8BVO14S MINGW64 /d/TechMahindra/GitExamples (main)
+$ cat > file2.txt
+This is file2
+
+Tehith@DESKTOP-8BVO14S MINGW64 /d/TechMahindra/GitExamples (main)
+$ echo "It is created using redirection" >> file3.txt
+
+Tehith@DESKTOP-8BVO14S MINGW64 /d/TechMahindra/GitExamples (main)
+$ ls -al
+total 7
+drwxr-xr-x 1 Tehith 197121  0 Jun  5 00:14 ./
+drwxr-xr-x 1 Tehith 197121  0 Jun  5 00:10 ../
+drwxr-xr-x 1 Tehith 197121  0 Jun  5 00:11 .git/
+-rw-r--r-- 1 Tehith 197121  0 Jun  5 00:12 Welcome.txt
+-rw-r--r-- 1 Tehith 197121 30 Jun  5 00:13 file1.txt
+-rw-r--r-- 1 Tehith 197121 14 Jun  5 00:14 file2.txt
+-rw-r--r-- 1 Tehith 197121 32 Jun  5 00:14 file3.txt
+
+Tehith@DESKTOP-8BVO14S MINGW64 /d/TechMahindra/GitExamples (main)
+$ cat > .file4.txt
+
+Tehith@DESKTOP-8BVO14S MINGW64 /d/TechMahindra/GitExamples (main)
+$ cat > .file5.txt
+
+Tehith@DESKTOP-8BVO14S MINGW64 /d/TechMahindra/GitExamples (main)
+$ ls
+Welcome.txt  file1.txt  file2.txt  file3.txt
+
+Tehith@DESKTOP-8BVO14S MINGW64 /d/TechMahindra/GitExamples (main)
+$ ls -al
+total 11
+drwxr-xr-x 1 Tehith 197121  0 Jun  5 00:15 ./
+drwxr-xr-x 1 Tehith 197121  0 Jun  5 00:10 ../
+-rw-r--r-- 1 Tehith 197121  0 Jun  5 00:15 .file4.txt
+drwxr-xr-x 1 Tehith 197121  0 Jun  5 00:11 .git/
+-rw-r--r-- 1 Tehith 197121  0 Jun  5 00:12 Welcome.txt
+-rw-r--r-- 1 Tehith 197121 30 Jun  5 00:13 file1.txt
+-rw-r--r-- 1 Tehith 197121 14 Jun  5 00:14 file2.txt
+-rw-r--r-- 1 Tehith 197121 32 Jun  5 00:14 file3.txt
+
+Tehith@DESKTOP-8BVO14S MINGW64 /d/TechMahindra/GitExamples (main)
+$ ls -l
+total 3
+-rw-r--r-- 1 Tehith 197121  0 Jun  5 00:12 Welcome.txt
+-rw-r--r-- 1 Tehith 197121 30 Jun  5 00:13 file1.txt
+-rw-r--r-- 1 Tehith 197121 14 Jun  5 00:14 file2.txt
+-rw-r--r-- 1 Tehith 197121 32 Jun  5 00:14 file3.txt
+
+Tehith@DESKTOP-8BVO14S MINGW64 /d/TechMahindra/GitExamples (main)
+$ git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .file4.txt
+        Welcome.txt
+        file1.txt
+        file2.txt
+        file3.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Tehith@DESKTOP-8BVO14S MINGW64 /d/TechMahindra/GitExamples (main)
+$ git add file1.txt
+warning: in the working copy of 'file1.txt', LF will be replaced by CRLF the next time Git touches it
+
+Tehith@DESKTOP-8BVO14S MINGW64 /d/TechMahindra/GitExamples (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   file1.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .file4.txt
+        Welcome.txt
+        file2.txt
+        file3.txt
+
+
+Tehith@DESKTOP-8BVO14S MINGW64 /d/TechMahindra/GitExamples (main)
+$ git add *.txt
+warning: in the working copy of 'file2.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'file3.txt', LF will be replaced by CRLF the next time Git touches it
+Tehith@DESKTOP-8BVO14S MINGW64 /d/TechMahindra/GitExamples (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Welcome.txt
+        new file:   file1.txt
+        new file:   file2.txt
+        new file:   file3.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .file4.txt
+
+
+Tehith@DESKTOP-8BVO14S MINGW64 /d/TechMahindra/GitExamples (main)
+$ git commit
