@@ -460,3 +460,33 @@ To https://github.com/saitehith28/ExamplesGit.git
 
 Tehith@DESKTOP-8BVO14S MINGW64 /d/TechMahindra/GitExamples (main)
 $
+Tehith@DESKTOP-8BVO14S MINGW64 /d/TechMahindra/GitExamples (main)
+$ git add .
+
+Tehith@DESKTOP-8BVO14S MINGW64 /d/TechMahindra/GitExamples (main)
+$ git status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   GitConfig.txt
+
+
+Tehith@DESKTOP-8BVO14S MINGW64 /d/TechMahindra/GitExamples (main)
+$ git commit -m "modified"
+[main d7d59d7] modified
+ 1 file changed, 147 insertions(+)
+
+Tehith@DESKTOP-8BVO14S MINGW64 /d/TechMahindra/GitExamples (main)
+$ git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.27 KiB | 1.27 MiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/saitehith28/ExamplesGit.git
+   8996a2a..d7d59d7  main -> main
+
+Tehith@DESKTOP-8BVO14S MINGW64 /d/TechMahindra/GitExamples (main)
+$
